@@ -1,2 +1,145 @@
-@font-face{font-family:Montserrat;font-weight:600;font-style:normal;font-display:swap;src:url(https://fonts.shopifycdn.com/montserrat/montserrat_n6.7a3c341961dc23aaabcc116124b80f2a7abec1a2.woff2?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=78e2681c5214eb071a90ed84539989ff0551ecc76f0357f9cb9dac47f1e37709) format("woff2"),url(https://fonts.shopifycdn.com/montserrat/montserrat_n6.2c97c1a692c63ad09ab0635cb73b1939c5f417c0.woff?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=f88579eb9dfab284eba41bc7ac4238c7d9bfe6cd2016e6303f5d21b3f6613686) format("woff")}@font-face{font-family:Montserrat;font-weight:800;font-style:normal;font-display:swap;src:url(https://fonts.shopifycdn.com/montserrat/montserrat_n8.d0ee6fdb3a3fec57b7ba86e76adad5b86d8b298f.woff2?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=9328a4c91d8c850232232b8367b802ad5912b11ce7370afa5003e1a46213e6c3) format("woff2"),url(https://fonts.shopifycdn.com/montserrat/montserrat_n8.57046b0201ba1025a279f9546bf469833729dc63.woff?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=f02be7bbcbe4d7457bf7cfca767f9de58ac54811c9828c46cc4846c8ff25ff75) format("woff")}@font-face{font-family:Karla;font-weight:400;font-style:normal;font-display:swap;src:url(https://fonts.shopifycdn.com/karla/karla_n4.187fb228d0a8055289c8663e90433b4a50e86848.woff2?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=27bd28d76da70580e95cb7c946259d369170b8a7f13940259aca053f9b824d68) format("woff2"),url(https://fonts.shopifycdn.com/karla/karla_n4.24ba61101c1ba185880bec9c74d8e7cdb826ad49.woff?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=5e3c0059c57285e124c9cc55bf74c3c05baef106e83134a071524775c0a84622) format("woff")}@font-face{font-family:Karla;font-weight:700;font-style:normal;font-display:swap;src:url(https://fonts.shopifycdn.com/karla/karla_n7.e8c0eb897464ccf45d5caa70ec8c7005d0f7b1b2.woff2?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=e6bf5a93ccd9c4442c8dcdd3a3ab8828decd488bc70985dfecbebb0004f56cb3) format("woff2"),url(https://fonts.shopifycdn.com/karla/karla_n7.98d31f084a84db1ace8d046ddc8faa522b144349.woff?h1=ZWNvbWdyYWR1YXRlcy5jb20&hmac=4ca4c48bb5c7fd455c16ea329f50ae301afb8c32ebee8fbfc4983a866fd11147) format("woff")}:root{--bs-primary: #e91470;--bs-primary-lighter: #ef418c;--bs-primary-darker: #ba1059;--bs-primary-alpha-25: rgba(233, 20, 112, .25);--bs-primary-alpha-50: rgba(233, 20, 112, .5);--bs-secondary: #6c757d;--bs-secondary-lighter: #868e96;--bs-secondary-darker: #545b62;--bs-dark: #212529;--bs-dark-lighter: #434b53;--bs-dark-darker: #0a0c0d;--bs-light: #f8f9fa;--bs-light-darker: #dae0e5;--bs-muted: #6c757d;--font-headings: Montserrat, sans-serif;--font-body: Karla, sans-serif}
-/*# sourceMappingURL=/s/files/1/0045/6831/8025/t/59/assets/variables.css.map?v=15672502658692039221 */
+/* latin-ext */
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/karla/v15/qkBbXvYC6trAT7RbLtyG5Q.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/karla/v15/qkBbXvYC6trAT7RVLtw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/karla/v15/qkBbXvYC6trAT7RbLtyG5Q.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/karla/v15/qkBbXvYC6trAT7RVLtw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+:root {
+  --bs-primary: #e91470;
+  --bs-primary-lighter: #ef418c;
+  --bs-primary-darker: #ba1059;
+  --bs-primary-alpha-25: rgba(233, 20, 112, 0.25);
+  --bs-primary-alpha-50: rgba(233, 20, 112, 0.5);
+  --bs-secondary: #6c757d;
+  --bs-secondary-lighter: #868e96;
+  --bs-secondary-darker: #545b62;
+  --bs-dark: #212529;
+  --bs-dark-lighter: #434b53;
+  --bs-dark-darker: #0a0c0d;
+  --bs-light: #f8f9fa;
+  --bs-light-darker: #dae0e5;
+  --bs-muted: #6c757d;
+  --font-headings: Montserrat, sans-serif;
+  --font-body: Karla, sans-serif;
+}
+
