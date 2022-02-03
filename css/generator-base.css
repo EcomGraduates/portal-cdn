@@ -29,10 +29,10 @@ h1 span {
 	font-size: 0.5em;
 	line-height: 1em;
 }
-#users_paginate{
+.dataTables_paginate{
 	float:right;
 }
-#users_filter{
+.dataTables_filter{
 	position: absolute;
     top: 11.5%;
     right: 10px;
@@ -40,7 +40,7 @@ h1 span {
 .dt-buttons.btn-group.flex-wrap{
 	margin-bottom: 12px;
 }
-#users_info{
+.dataTables_info{
 	position: absolute;
     right: 13px;
     margin-top: 41px;
